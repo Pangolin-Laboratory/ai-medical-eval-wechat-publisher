@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated publication packages and private inputs
+outputs/
+results/
+reports/
+private_data/
+*.log
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*.csv
+*.tsv
+*.jsonl
+
+# Model and data artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.h5ad
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
